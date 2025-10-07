@@ -5,19 +5,19 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
 }
-
-.small-para {
+/*Added .para.small-para, also adjusted font weight to 1000*/
+.para.small-para {
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 1000;
 }
-
+/*Added font-weight:1000*/
 .para {
   font-size: 22px;
+  font-weight: 1000;
 }
-
-.confirm {
+/*Targeted confirm button by ID*/
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -28,10 +28,11 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
+/*Targeted child class directly by .text.child,
+and adjusted font weight to 1000*/
+.text.child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
+  font-weight: 1000;
   font-size: 14px;
 }
 
@@ -40,3 +41,4 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+*/
